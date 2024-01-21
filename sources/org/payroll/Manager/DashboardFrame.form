@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="org.payroll.Manager.DashboardFrame">
+  <grid id="27dc6" binding="DashboardPanel" layout-manager="GridLayoutManager" row-count="3" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="50" bottom="20" right="50"/>
+    <constraints>
+      <xy x="20" y="20" width="1012" height="622"/>
+    </constraints>
+    <properties>
+      <background color="-2099"/>
+      <font name="Baskerville Old Face" size="12" style="1"/>
+    </properties>
+    <border type="line"/>
+    <children>
+      <component id="80027" class="javax.swing.JLabel" binding="JLblDashboard">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="6" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Bodoni MT Black" size="72" style="0"/>
+          <foreground color="-14610838"/>
+          <horizontalTextPosition value="0"/>
+          <text value="DASHBOARD"/>
+        </properties>
+      </component>
+      <vspacer id="765be">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="6" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="be932" class="javax.swing.JButton" binding="JBtnCusManage">
+        <constraints>
+          <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2099"/>
+          <font name="Baskerville Old Face" size="12" style="1"/>
+          <foreground color="-13757016"/>
+          <horizontalAlignment value="0"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="org/payroll/SourcePicture/stakeholder.png"/>
+          <text value="CUSTOMER MANAGEMENT"/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <component id="1bd39" class="javax.swing.JButton" binding="JBtnCusDetail">
+        <constraints>
+          <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="100"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-2099"/>
+          <font name="Baskerville Old Face" size="12" style="1"/>
+          <foreground color="-13757016"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="org/payroll/SourcePicture/profile.png"/>
+          <text value="CUSTOMER DETAILS"/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <component id="1a9ef" class="javax.swing.JButton" binding="JBtnService">
+        <constraints>
+          <grid row="2" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2099"/>
+          <font name="Baskerville Old Face" size="12" style="1"/>
+          <foreground color="-13757016"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="org/payroll/SourcePicture/employee (1).png"/>
+          <text value="SERVICES"/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <component id="7cb9f" class="javax.swing.JButton" binding="JBtnCustPayment">
+        <constraints>
+          <grid row="2" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2099"/>
+          <font name="Baskerville Old Face" size="12" style="1"/>
+          <foreground color="-13757016"/>
+          <horizontalTextPosition value="0"/>
+          <icon value="org/payroll/SourcePicture/wage.png"/>
+          <text value="CUSTOMER PAYMENT"/>
+          <verticalAlignment value="3"/>
+          <verticalTextPosition value="3"/>
+        </properties>
+      </component>
+      <component id="5841e" class="javax.swing.JButton" binding="JBtnQuit">
+        <constraints>
+          <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="6" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2099"/>
+          <horizontalAlignment value="0"/>
+          <icon value="org/payroll/SourcePicture/logout.png"/>
+          <text value=""/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
