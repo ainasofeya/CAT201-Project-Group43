@@ -68,7 +68,7 @@ public class UpdateCustomerFrame extends JFrame{
                 id = JCBoxCusId.getSelectedItem().toString();
                 email = JTFldCusEmail.getText();
                 Fname = JTFldCusFirstName.getText();
-                Lname = JTFldLastName.getName();
+                Lname = JTFldLastName.getText();
                 session = JTFlSession.getText();
 
                 Main.dbManager.updateCustomer(id, Fname, Lname,email, service, session);
